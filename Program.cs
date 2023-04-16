@@ -86,7 +86,22 @@
 //             Console.WriteLine("такой четверти нет");
 //             break;
 //         }
+// }
 
 
+// Задача №3
+// Напишите программу, которая принимает на вход координаты двух точек и находит раастояние между ними в 2D пространстве.
+// А(3,6) B(2,1)--->5,09
 
-}
+// Console.WriteLine("Введите координату точки #1 по X");
+// int X1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите координату точки #1 по Y");
+// int Y1 = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine("Введите координату точки #2 по X");
+// int X2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите координату точки #2 по Y");
+// int Y2 = Convert.ToInt32(Console.ReadLine());
+
+// double d = Math.Sqrt(Math.Pow((X2 - X1), 2) + Math.Pow((Y2 - Y1), 2));
+// Console.WriteLine(d);
