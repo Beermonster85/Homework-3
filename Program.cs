@@ -53,3 +53,40 @@
 // {
 //     Console.WriteLine("такой четверти нет");
 // }
+
+// Второй метод решения задачи
+
+// Console.WriteLine("Введите номер четверти");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// switch (number)
+// {
+//     case 1:
+//         {
+//             Console.WriteLine("X > 0 && Y > 0");
+//             break;
+//         }
+//     case 2:
+//         {
+//             Console.WriteLine("X < 0 && Y > 0");
+//             break;
+//         }
+//     case 3:
+//         {
+//             Console.WriteLine("X < 0 && Y < 0");
+//             break;
+//         }
+//     case 4:
+//         {
+//             Console.WriteLine("X > 0 && Y < 0");
+//             break;
+//         }
+//     default:
+//         {
+//             Console.WriteLine("такой четверти нет");
+//             break;
+//         }
+
+
+
+}
