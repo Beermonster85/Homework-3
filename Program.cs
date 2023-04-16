@@ -105,3 +105,29 @@
 
 // double d = Math.Sqrt(Math.Pow((X2 - X1), 2) + Math.Pow((Y2 - Y1), 2));
 // Console.WriteLine(d);
+
+
+
+// Задача №3
+// Написать программу которая принимает на вход число N и выдает таблицу квадратов чисел от 1 до N
+// 5 ----> 1,4,9,16,25
+
+// вариант решения №1
+// Console.WriteLine("Введите число");
+// int X = Convert.ToInt32(Console.ReadLine());
+
+// int i = 1;
+// while (i <= X)
+// {
+//     Console.WriteLine(Math.Pow(i, 2));
+//     i = i + 1;
+// }
+
+// // Вариант решения №2
+// Console.WriteLine("Введите число");
+// int X = Convert.ToInt32(Console.ReadLine());
+
+// for (int i = 1; i <= X; i++)
+// {
+//     Console.WriteLine(Math.Pow(i, 2));
+// }
