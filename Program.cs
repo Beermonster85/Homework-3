@@ -138,14 +138,40 @@
 
 // Задание №1
 
-Console.WriteLine("Ввести пятнизначное число");
-string number = Console.ReadLine();
+// Console.WriteLine("Ввести пятнизначное число");
+// string number = Console.ReadLine();
 
-if ((number[0] == number[4]) && (number[1] == number[3]))
-{
-    Console.WriteLine("да");
-}
-else
-{
-    Console.WriteLine("нет");
-}
+// if ((number[0] == number[4]) && (number[1] == number[3]))
+// {
+//     Console.WriteLine("да");
+// }
+// else
+// {
+//     Console.WriteLine("нет");
+// }
+
+
+// Задание №2
+// Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
+
+// A (3,6,8); B (2,1,-7), -> 15.84
+
+// A (7,-5, 0); B (1,-1,9) -> 11.53
+
+// Console.WriteLine("Первая координата 1 точки X");
+// int X1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Вторая координата 2 точки Y");
+// int Y1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Третяя координата 3 точки Z");
+// int Z1 = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine("Первая координата 1 точки X");
+// int X2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Вторая координата 2 точки Y");
+// int Y2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Третяя координата 3 точки Z");
+// int Z2 = Convert.ToInt32(Console.ReadLine());
+
+// double d = Math.Sqrt(Math.Pow((X2 - X1), 2) + Math.Pow((Y2 - Y1), 2) + Math.Pow((Z2 - Z1), 2));
+// Console.WriteLine(d);
+
