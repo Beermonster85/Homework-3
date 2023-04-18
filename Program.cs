@@ -175,3 +175,23 @@
 // double d = Math.Sqrt(Math.Pow((X2 - X1), 2) + Math.Pow((Y2 - Y1), 2) + Math.Pow((Z2 - Z1), 2));
 // Console.WriteLine(d);
 
+
+
+// Задача №3
+
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+// 3 -> 1, 8, 27
+// 5 -> 1, 8, 27, 64, 125
+
+// Console.WriteLine("Значение числа N");
+// int N = Convert.ToInt32(Console.ReadLine());
+// int i = 1;
+
+// while (i <= N)
+// {
+//     Console.WriteLine(Math.Pow(i, 3));
+//     i = i + 1;
+// }
+
+
